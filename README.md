@@ -58,6 +58,7 @@
 * int sumArray(int* beg, int* end)
 * int findMax(int* beg, int* end) 
 * int findMin(int* beg, int* end)
+* void shuffle(int* beg, int* end)
 * void reverse(int* beg, int* end)
 * void shiftArray(int* beg, int* end, int k)
 * void countOfElements(int* beg, int* end, const int) //количество совпадающих с данным элементов
