@@ -49,6 +49,7 @@
 * void giveMemory(int*&,const int)//первый способ. Подумайте, почему обязательно надо тут &
 * int* giveMemory(const int)//второй способ. Подумайте, можно ли и безопасно ли тут напісать int*& giveMemory(...     
 * void freeMemory(int*&)
+* void copyArray(int* ,const int, int*) и ещё void initArray(int* beg, int* end, int* dest)
 * void initArray(int* ,const int, const int=0) и ещё void initArray(int* beg, int* end, const int=0)
 * void initRandomArray(int* ,const int, const int=0, const int=1) и ещё void initRandomArray(int* beg, int* end, const int m, const int M)
 * void inputArray(int*, const int)  и ещё void inputArray(int* beg, int* end)
